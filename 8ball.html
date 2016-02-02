@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link type="text/css" href="8ball.css" rel="stylesheet">
+    <script type="text/javascript" src = "8ball_Dom.js" ></script>
+    <title>Magic 8 Ball</title>
+  </head>
+  <body>
+    <h2 id="the_question">What was it you asked?</h2>
+
+    <h1 id="hello_user"> Please ask the 8 ball any question you like! I warn you though, you may not like the answer...</h1><br>
+
+
+    <h3 id="your_question">Your question goes here: <input type="text" id="user_question"/></h3>
+
+    <input type="button" value="ASK!"  onclick="randomAnswerGenerator()" id="ask_button"/>
+
+  </body>
+</html>

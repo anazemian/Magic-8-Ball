@@ -1,0 +1,18 @@
+body{
+  text-align: center;
+  background-image: url("http://www.desktopwallpaperhd.net/wallpapers/2/b/magic-8-ball-magic-eight-ball-mystic-forgotten-cracky-28971.jpg");
+}
+
+#hello_user{
+  font-family: fantasy;
+  color: white;
+}
+
+#the_question{
+  font-family: fantasy;
+  color: white;
+}
+h3 {
+  font-family: fantasy;
+  color: white;
+}
